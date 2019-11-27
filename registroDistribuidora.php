@@ -40,48 +40,48 @@
     <form class="m-5">
         <div class="form-row">
             <div class="form-group col-md-12">
-                <label for="inputEmail4">Correo Electronico</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Correo Electronico">
+                <label for="correo">Correo Electronico</label>
+                <input type="email" class="form-control" id="correo" placeholder="Correo Electronico">
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-12">
-                <label for="inputPassword4">Nombre</label>
-                <input type="text" class="form-control" id="inputPassword4" placeholder="Nombre">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
             </div>
             <div class="form-group col-md-6">
-                <label for="inputPassword4">Apellido Paterno</label>
-                <input type="text" class="form-control" id="inputPassword4" placeholder="Apellido Paterno">
+                <label for="apaterno">Apellido Paterno</label>
+                <input type="text" class="form-control" id="apaterno" placeholder="Apellido Paterno">
             </div>
             <div class="form-group col-md-6">
-                <label for="inputPassword4">Apellido Materno</label>
-                <input type="text" class="form-control" id="inputPassword4" placeholder="Apellido Materno">
+                <label for="amaterno">Apellido Materno</label>
+                <input type="text" class="form-control" id="amaterno" placeholder="Apellido Materno">
             </div>
         </div>
         <div class="form-group">
-            <label for="inputAddress">Dirección</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="Ingresa calle y numero #">
+            <label for="direccion">Dirección</label>
+            <input type="text" class="form-control" id="direccion" placeholder="Ingresa calle y numero #">
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
-            <label for="inputCity">Ciudad</label>
-            <input type="text" class="form-control" placeholder="Ingresa tu ciudad" id="inputCity">
+            <label for="ciudad">Ciudad</label>
+            <input type="text" class="form-control" placeholder="Ingresa tu ciudad" id="ciudad">
             </div>
             <div class="form-group col-md-4">
-                <label for="inputState">Estado</label>
-                <select id="inputState" class="form-control">
+                <label for="estado">Estado</label>
+                <select id="estado" class="form-control">
                     <option selected>Seleccionar Estado</option>
                     <option>Aguascalientes</option>
                     <option>Zacatecas</option>
                 </select>
             </div>
             <div class="form-group col-md-2">
-                <label for="inputZip">Codigo Postal</label>
-                <input type="text" class="form-control" id="inputZip">
+                <label for="cp">Codigo Postal</label>
+                <input type="text" class="form-control" id="cp">
             </div>
         </div>
 
-        <button type="submit" class="btn btn-danger btn-block"> <i class="fa fa-plus"></i> Registrarme</button>
+        <button type="submit" id="boton" onclick="guardar()" class="btn btn-danger btn-block"> <i class="fa fa-plus"></i> Registrarme</button>
     </form>
 </div>
 
