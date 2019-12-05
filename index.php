@@ -87,7 +87,7 @@
 
         <!-- FOOTER -->
         <div id="footer">
-                <p>2019 - Nico MA Photograph </p>
+                <p>2019 - NICO MA PHOTOGRAPH </p>
         </div>
         <!-- END FOOTER -->
 
