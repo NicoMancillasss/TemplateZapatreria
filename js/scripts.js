@@ -54,7 +54,7 @@ $(function () {
 
 //Countdown for demo. Always add 18 days
 var someDate = new Date();
-var numberOfDaysToAdd = 18;
+var numberOfDaysToAdd = 16;
 someDate.setDate(someDate.getDate() + numberOfDaysToAdd); 
 
 //Countdown with real date

@@ -36,6 +36,9 @@
 							<li>
 								<a href="nuevaColeccion.php">Nueva Colección</a>
 							</li>
+							<li>
+								<a href="distribuidoras.php">Distribuidoras</a>
+							</li>
 
 							<li>
 								<a href="catalogoDigital.php">Catalogo Digital</a>

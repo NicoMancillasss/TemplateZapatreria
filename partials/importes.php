@@ -32,8 +32,13 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
-	<script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-firestore.js"></script>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+		https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+	<!-- <script src="js/app.js"></script> -->
 <!--===============================================================================================-->
 
 </head>
