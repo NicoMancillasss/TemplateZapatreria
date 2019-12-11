@@ -42,26 +42,7 @@
                     <div class="section clearfix animated fadeIn" id="countdown">
                         <!-- Days -->
                         <div class="countdown_group">
-                            <span class="countdown_value">{dnn}</span> 
-                            <span class="countdown_help">{dl}</span>
-                        </div>
-
-                        <!-- Hours --> 
-                        <div class="countdown_group">
-                            <span class="countdown_value">{hnn}</span> 
-                            <span class="countdown_help">{hl}</span>
-                        </div> 
-
-                        <!-- Minutes -->
-                        <div class="countdown_group">
-                            <span class="countdown_value">{mnn}</span> 
-                            <span class="countdown_help">{ml}</span> 
-                        </div>
-
-                        <!-- Seconds -->
-                        <div class="countdown_group">
-                            <span class="countdown_value">{snn}</span> 
-                            <span class="countdown_help">{sl}</span>
+                            <h1>PRÓXIMAMENTE</h1>
                         </div>
                     </div>
                     <!-- END COUNTDOWN -->
